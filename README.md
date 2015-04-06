@@ -1,3 +1,3 @@
 # Dysphasie-Reveal
 
-Visualisation ici : http://AlisonChaniat.github.io/TSLO
+Visualisation ici : http://alison-chaniat.github.io/TSLO
