@@ -1,0 +1,59 @@
+@font-face
+{
+font-family: MyFont;
+src: url('../font/SegoePrint.ttf');
+}
+
+.mainTitle {
+	font-weight: bold !important;
+	font-size: 150% !important; 
+	color: rgb(77, 41, 11) !important; 
+	font-family: MyFont !important;
+}
+
+.videoTitle {
+	font-weight: bold !important;
+	font-size: 140% !important; 
+	color: rgb(77, 41, 11) !important; 
+	font-family: MyFont !important;
+}
+
+.subTitle{
+	width: 60%;
+	float: right;
+	font-size: 75% !important;
+	font-weight: bold !important;
+	color: rgb(154, 83, 21) !important; 
+	font-family: MyFont !important;
+}
+
+.footer{
+	position: absolute !important;
+	bottom: 5% !important;
+	font-size: 55% !important; 
+	font-family: MyFont !important;
+	font-weight: bold !important;
+	
+	  width: 100%;
+  text-align: center;
+}
+
+.footer2{
+	position: absolute !important;
+	bottom: 0 !important;
+	font-size: 55% !important; 
+	font-family: MyFont !important;
+	font-weight: bold !important;
+	
+	  width: 100%;
+  text-align: center;
+}
+
+.slide-page-garde {
+	height: 100% !important
+}
+
+.slides > .page-garde {
+	top: 20% !important; 
+	height: 65% !important;
+}
