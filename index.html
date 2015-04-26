@@ -42,8 +42,8 @@
 		<div class="reveal">
 			<!-- Any section element inside of this container is displayed as a slide -->
 			<div class="slides slide-page-garde">
-				<a class="downloadButton" href="https://github.com/alison-chaniat/TSLO/archive/gh-pages.zip"><img src="img/download.png" height="50px" width="50px" ></a>
 				<section class="page-garde" data-background="img/Background.png" >
+					<a class="downloadButton" href="https://github.com/alison-chaniat/TSLO/archive/gh-pages.zip"><img src="img/download.png" height="50px" width="50px" ></a>
 					<p class="mainTitle">Explication des troubles spécifiques du langage oral sévères et persistants</p>
 					<p class="subTitle">Destinée aux élèves de primaire des classes accueillant un enfant atteint de cette pathologie</p>
 					<p class="footer">Réalisée par Alison Chaniat, dans le cadre d'un mémoire</p>
@@ -133,7 +133,11 @@
 					{ src: 'plugin/notes/notes.js', async: true }
 				]
 			});
-
+			
+			if(window.location.href.search("github.io") == -1){
+				var downloadButton = document.getElementsByClassName("downloadButton");
+				downloadButton[0].style.display = "none";
+			}
 		</script>
 
 	</body>
