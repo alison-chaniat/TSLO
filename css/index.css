@@ -11,6 +11,16 @@ src: url('../font/SegoePrint.ttf');
 	font-family: MyFont !important;
 }
 
+.downloadButton{
+	margin: 0 !important;
+	background: none !important;
+	border: none !important;
+	box-shadow: none !important;
+	position: absolute !important;
+	right : 15px !important;
+	top : 15px !important;
+}
+
 .videoTitle {
 	font-weight: bold !important;
 	font-size: 140% !important; 
